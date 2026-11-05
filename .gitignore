@@ -1,0 +1,17 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Raw data (keep the directory placeholder)
+data/raw/*
+!data/raw/.gitkeep
+
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local settings and operating-system files
+.env
+.DS_Store
+Thumbs.db

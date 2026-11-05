@@ -1,0 +1,19 @@
+[workspace]
+authors = ["Rexhu0203 <ruiyanghu@gmail.com>"]
+channels = ["conda-forge"]
+name = "BIOS707-Final-Project"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=3.1.1,<4"
+numpy = ">=2.5.4,<3"
+scipy = ">=1.18.1,<2"
+scikit-learn = ">=1.9.1,<2"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+jupyterlab = ">=4.6.5,<5"
+ipykernel = ">=7.4.0,<8"
